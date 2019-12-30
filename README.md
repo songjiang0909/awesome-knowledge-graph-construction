@@ -8,12 +8,13 @@ A collection of knowledge graph construction resources.
 	* [Supervised Approaches](#supervised-approaches)
 	* [Distant Supervision Approaches](#distant-supervision-approaches)
 	* [Language Models](#language-models)
+* [Lectures](#courses-and-lectures)
+	* [Tutorials](#tutorials)
 * [Datasets](#datasets)
-* [Videos and Lectures](#videos-and-lectures)
-* [Systems](#systems)
+* [Implenmetation and Systems](#implenmetation-and-systems)
 
 
-## Research Trends and Surveys and
+## Research Trends and Surveys
 * [NLP progress: Relationship Extraction](https://nlpprogress.com/english/relationship_extraction.html)
 * [A Survey of Deep Learning Methods for Relation Extraction](https://arxiv.org/abs/1705.03645) (Kumar, 2017)
 * [A Survey on Relation Extraction](https://www.cs.cmu.edu/~nbach/papers/A-survey-on-Relation-Extraction.pdf) (Bach and Badaskar, 2017)
@@ -161,6 +162,13 @@ A collection of knowledge graph construction resources.
 	* Journal of Computational Intelligence and Neuroscience 2017
 
 [Back to Top](#contents)
+
+## Lectures
+
+### Tutorials
+* Mining Knowledge Graphs from Text [[link]](https://kgtutorial.github.io/)
+
+
 
 
 ## Datasets
