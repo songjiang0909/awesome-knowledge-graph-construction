@@ -1,156 +1,209 @@
-# awesome-knowledge-graph[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Awesome Relation Extraction [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+![awesome_re](https://user-images.githubusercontent.com/15166794/47858006-62aa7400-de2e-11e8-82d3-165f66aaaec4.png)
 
-A curated list of awesome knowledge graph tutorials, projects and communities.
-Both Chinese and English resource are listed in language respectively.
-Please feel free to pull requests to add links.
+A curated list of awesome resources dedicated to Relation Extraction, inspired by [awesome-nlp](https://github.com/keon/awesome-nlp) and [awesome-deep-vision](https://github.com/kjw0612/awesome-deep-vision).
+
+**Contributing**: Please feel free to make *[pull requests](https://github.com/roomylee/awesome-relation-extraction/pulls)*.
+
+## Contents
+* [Research Trends and Surveys](#research-trends-and-surveys)
+* [Papers](#papers)
+	* [Supervised Approaches](#supervised-approaches)
+	* [Distant Supervision Approaches](#distant-supervision-approaches)
+	* [Language Models](#language-models)
+* [Datasets](#datasets)
+* [Videos and Lectures](#videos-and-lectures)
+* [Systems](#systems)
 
 
-## Table of Contents
+## Research Trends and Surveys
+* [NLP progress: Relationship Extraction](https://nlpprogress.com/english/relationship_extraction.html)
+* [A Survey of Deep Learning Methods for Relation Extraction](https://arxiv.org/abs/1705.03645) (Kumar, 2017)
+* [A Survey on Relation Extraction](https://www.cs.cmu.edu/~nbach/papers/A-survey-on-Relation-Extraction.pdf) (Bach and Badaskar, 2017)
+* [Relation Extraction: A Survey](https://arxiv.org/abs/1712.05191) (Pawar et al., 2017)
+* [A Review on Entity Relation Extraction](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8269916) (Zhang et al., 2017)
+* [Review of Relation Extraction Methods: What is New Out There?](http://pers-www.wlv.ac.uk/~in0988/documents/aist-final.pdf) (Konstantinova et al., 2014)
+* [100 Best Github: Relation Extraction](http://meta-guide.com/software-meta-guide/100-best-github-relation-extraction)
 
-* **[Papers](#papers)**
-* **[Useful Articles/Slides](#useful-articlesslides)**
-* **[Courses and Lectures](#courses-and-lectures)**
-* **[Datasets](#datasets)**
-* **[Implementations and Tools](#implementations-and-tools)**
-* **[Community](#community)**
-
-<!--* **[Articles](#articles)**-->
 
 ## Papers
 
-I write notes of paper and post them in the issue. It is written in Chinese. Feel free to post your notes no matter what language you use.
+### Supervised Approaches
+#### CNN-based Models
+* Convolution Neural Network for Relation Extraction [[paper]](https://link.springer.com/chapter/10.1007/978-3-642-53917-6_21) [[code]](https://github.com/roomylee/cnn-relation-extraction) [[review]](/relation_extraction/Relation_Neural_Network_for_Relation_Extraction.md)
+	* ChunYang Liu, WenBo Sun, WenHan Chao and WanXiang Che
+	* ADMA 2013
+* Relation Classification via Convolutional Deep Neural Network [[paper]](http://www.aclweb.org/anthology/C14-1220) [[code]](https://github.com/roomylee/cnn-relation-extraction) [[review]](/relation_extraction/Relation_Classification_via_Convolutional_Deep_Neural_Network.md)
+	* Daojian Zeng, Kang Liu, Siwei Lai, Guangyou Zhou and Jun Zhao
+	* COLING 2014
+* Relation Extraction: Perspective from Convolutional Neural Networks [[paper]](http://www.cs.nyu.edu/~thien/pubs/vector15.pdf) [[code]](https://github.com/roomylee/cnn-relation-extraction) [[review]](/relation_extraction/Relation_Extraction-Perspective_from_Convolutional_Neural_Networks.md)
+	* Thien Huu Nguyen and Ralph Grishman
+	* NAACL 2015
+* Classifying Relations by Ranking with Convolutional Neural Networks [[paper]](https://arxiv.org/abs/1504.06580) [[code]](https://github.com/pratapbhanu/CRCNN)
+	* Cicero Nogueira dos Santos, Bing Xiang and Bowen Zhou
+	* ACL 2015
+* Attention-Based Convolutional Neural Network for Semantic Relation Extraction [[paper]](http://www.aclweb.org/anthology/C16-1238)
+	* Yatian Shen and Xuanjing Huang
+	* COLING 2016
+* Relation Classification via Multi-Level Attention CNNs [[paper]](http://aclweb.org/anthology/P16-1123) [[code]](https://github.com/lawlietAi/relation-classification-via-attention-model)
+	* Linlin Wang, Zhu Cao, Gerard de Melo and Zhiyuan Liu
+	* ACL 2016
+* MIT at SemEval-2017 Task 10: Relation Extraction with Convolutional Neural Networks [[paper]](https://aclanthology.info/pdf/S/S17/S17-2171.pdf)
+	* Ji Young Lee, Franck Dernoncourt and Peter Szolovits
+	* SemEval 2017
 
-**Knowledge Graph Related task**
+#### RNN-based Models
+* Relation Classification via Recurrent Neural Network [[paper]](https://arxiv.org/abs/1508.01006)
+	* Dongxu Zhang and Dong Wang
+	* arXiv 2015
+* Bidirectional Long Short-Term Memory Networks for Relation Classification [[paper]](http://www.aclweb.org/anthology/Y15-1009)
+	* Shu Zhang, Dequan Zheng, Xinchen Hu and Ming Yang
+	* PACLIC 2015
+* End-to-End Relation Extraction using LSTMs on Sequences and Tree Structure [[paper]](https://arxiv.org/abs/1601.00770)
+	* Makoto Miwa and Mohit Bansal
+	* ACL 2016
+* Attention-Based Bidirectional Long Short-Term Memory Networks for Relation Classification [[paper]](http://anthology.aclweb.org/P16-2034) [[code]](https://github.com/SeoSangwoo/Attention-Based-BiLSTM-relation-extraction)
+	* Peng Zhou, Wei Shi, Jun Tian, Zhenyu Qi, Bingchen Li, Hongwei Hao and Bo Xu
+	* ACL 2016
+* Semantic Relation Classification via Hierarchical Recurrent Neural Network with Attention [[paper]](http://www.aclweb.org/anthology/C16-1119)
+	* Minguang Xiao and Cong Liu
+	* COLING 2016
+* Semantic Relation Classification via Bidirectional LSTM Networks with Entity-aware Attention using Latent Entity Typing [[paper]](https://arxiv.org/abs/1901.08163) [[code]](https://github.com/roomylee/entity-aware-relation-classification)
+	* Joohong Lee, Sangwoo Seo and Yong Suk Choi
+	* arXiv 2019
 
-
-- [Information Extraction/Open IE](https://github.com/BrambleXu/knowledge-graph-learning/issues?utf8=✓&q=+label%3AIE%28T%29+)
-- [Knowledge Graph Population/Construction Task](https://github.com/BrambleXu/knowledge-graph-learning/issues?utf8=✓&q=label%3AKGP%2FKGC%28T%29+): Construct a Knowledge Graph from Different Sources
-- [Knowledge Base Completion/Knowledge Graph Reasoning](https://github.com/BrambleXu/knowledge-graph-learning/issues?q=is%3Aissue+is%3Aopen+label%3AKBC%2FKGR%28T%29): Entity Prediction or Link Prediction
-- [Knowledge Representation Learning & Knowledge Embedding](https://github.com/BrambleXu/knowledge-graph-learning/issues?utf8=%E2%9C%93&q=label%3AKRL%2FKGE%28%28T%2FM%29+)
-- [Knowledge based Recommendation System](https://github.com/BrambleXu/knowledge-graph-learning/issues/250)
-- [Named Entity Linking](https://github.com/BrambleXu/knowledge-graph-learning/issues?utf8=✓&q=+label%3ANEL%28T%29+)
-- [Named Entity Recognition](https://github.com/BrambleXu/knowledge-graph-learning/issues?utf8=✓&q=label%3ANER%28T%29+)
-- [Ontology-based information extraction](https://github.com/BrambleXu/knowledge-graph-learning/issues?utf8=✓&q=+label%3AOBIE%28T%29+)
-- [Relation Extraction](https://github.com/BrambleXu/knowledge-graph-learning/issues?utf8=✓&q=label%3ARE%28T%29+)
-- [Semantic Role Labeling](https://github.com/BrambleXu/knowledge-graph-learning/issues?utf8=✓&q=label%3ASRL%28T%29+)
-
-<details><summary>other non-related task paper</summary>
-<p>
-
-**Tag with task**
-
-- [Annotation](https://github.com/BrambleXu/knowledge-graph-learning/issues?utf8=✓&q=label%3AAnnotation%28T%29+)
-- [Coreference Resolution](https://github.com/BrambleXu/knowledge-graph-learning/issues?utf8=✓&q=+label%3ACR%28T%29+)
-- [Data Augmentation](https://github.com/BrambleXu/knowledge-graph-learning/issues?q=is%3Aopen+is%3Aissue+label%3ADataAug%28T%29)
-- [Dependency Parsing](https://github.com/BrambleXu/knowledge-graph-learning/issues?utf8=✓&q=label%3ADP%28T%29+)
-- [Domain Adaptation/Domain Specific](https://github.com/BrambleXu/knowledge-graph-learning/issues?utf8=✓&q=label%3ADA%28T%29+)
-- [Natural Language Understanding](https://github.com/BrambleXu/knowledge-graph-learning/issues?utf8=✓&q=label%3ANLU%28T%29+)
-- [Neural Machine Translation](https://github.com/BrambleXu/knowledge-graph-learning/issues?utf8=✓&q=+label%3ANMT%28T%29+)
-- [Question Answering/Machine Comprehension](https://github.com/BrambleXu/knowledge-graph-learning/issues?utf8=✓&q=label%3AQA%28T%29+)
-- [Recommendation](https://github.com/BrambleXu/knowledge-graph-learning/issues?q=is%3Aopen+is%3Aissue+label%3ARecommendation%28T%29)
-- [Relational Reasoning](https://github.com/BrambleXu/knowledge-graph-learning/issues?q=label%3ARR%28T%29)
-- [Summarization](https://github.com/BrambleXu/knowledge-graph-learning/issues?q=is%3Aopen+is%3Aissue+label%3ASummarization%28T%29)
-- [Slot Filling](https://github.com/BrambleXu/knowledge-graph-learning/issues?utf8=✓&q=+label%3ASF%28T%29+)
-- [Text Classification](https://github.com/BrambleXu/knowledge-graph-learning/issues?q=label%3ATC%28T%29)
-
-
-**Tag with Model**
-
-- [BERT](https://github.com/BrambleXu/knowledge-graph-learning/issues?q=label%3ABERT%28M%29)
-- [Embedding/Pre-train Model/Task](https://github.com/BrambleXu/knowledge-graph-learning/issues?utf8=✓&q=+label%3AEmbedding+)
-- [End-to-end Model](https://github.com/BrambleXu/knowledge-graph-learning/issues?utf8=✓&q=label%3AE2E%28M%29+)
-- [Graph Neural Network](https://github.com/BrambleXu/knowledge-graph-learning/issues?utf8=✓&q=label%3AGNN%28M%29+)
-- [Multi-Task/Joint Learning](https://github.com/BrambleXu/knowledge-graph-learning/issues?utf8=✓&q=+label%3AMTL%28M%29+)
-- [Transformer Based Model](https://github.com/BrambleXu/knowledge-graph-learning/issues?utf8=✓&q=+label%3ATransformer%28M%29+)
-
-</p>
-</details>
-
-
-
-## Useful Articles/Slides
-
-* [ontotext blog](https://www.ontotext.com/category/business/)
-* [Knowledge Extraction and Inference from Text (KDD 2018 Tutorial)](https://sites.google.com/site/keit2018kdd/)
-* [Enterprise	Knowledge	Graphs for Large	Scale	Analytics](https://cci.drexel.edu/bigdata/bigdata2017/files/Tutorial1-1.pdf) from IBM
-* [Getting Started with Knowledge Graphs](https://www.slideshare.net/phaase/getting-started-with-knowledge-graphs) from metaphacts
-* [Mining Knowledge Graphs from Text: A Tutorial](https://kgtutorial.github.io) from WSDM 2018 Tutorial
-* [Knowledge Graphs - The Power of Graph-Based Search](https://www.slideshare.net/neo4j/knowledge-graphs-the-power-of-graphbased-search) from Neo4j
-* [Knowledge Integration in Practice](https://www.slideshare.net/pmika/knowledge-integration-in-practice) from YAHOO
-* [知识图谱论文合集](https://zhuanlan.zhihu.com/p/44904796)
-* [知识图谱入门 (三)](http://pelhans.com/2018/03/19/xiaoxiangkg-note3/#%E4%BA%8B%E4%BB%B6%E6%8A%BD%E5%8F%96)
-
-### Relation Extraction
-
-* [A SURVEY ON RELATION EXTRACTION (CMU)](http://www.cs.cmu.edu/~nbach/papers/A-survey-on-Relation-Extraction-Slides.pdf)
-* [Relation Extraction: CSE 517: Natural Language Processing](https://courses.cs.washington.edu/courses/cse517/13wi/slides/cse517wi13-RelationExtraction.pdf)
-* [Relation Extraction II: CSE 517: Natural Language Processing](https://courses.cs.washington.edu/courses/cse517/13wi/slides/cse517wi13-RelationExtractionII.pdf)
-
-
-### Event Extraction
-
-* [事件抽取与金融事件图谱构建](https://www.jiqizhixin.com/articles/2018-10-17-12)
+#### Dependency-based Models
+* Semantic Compositionality through Recursive Matrix-Vector Spaces [[paper]](http://aclweb.org/anthology/D12-1110) [[code]](https://github.com/pratapbhanu/MVRNN)
+	* Richard Socher, Brody Huval, Christopher D. Manning and Andrew Y. Ng
+	* EMNLP-CoNLL 2012
+* Factor-based Compositional Embedding Models [[paper]](https://www.cs.cmu.edu/~mgormley/papers/yu+gormley+dredze.nipsw.2014.pdf)
+	* Mo Yu, Matthw R. Gormley and Mark Dredze
+	* NIPS Workshop on Learning Semantics 2014
+* A Dependency-Based Neural Network for Relation Classification [[paper]](http://www.aclweb.org/anthology/P15-2047)
+	* Yang Liu, Furu Wei, Sujian Li, Heng Ji, Ming Zhou and Houfeng Wang
+	* ACL 2015
+* Classifying Relations via Long Short Term Memory Networks along Shortest Dependency Path [[paper]](https://arxiv.org/abs/1508.03720) [[code]](https://github.com/Sshanu/Relation-Classification)
+	* Xu Yan, Lili Mou, Ge Li, Yunchuan Chen, Hao Peng and Zhi Jin
+	* EMNLP 2015
+* Semantic Relation Classification via Convolutional Neural Networks with Simple Negative Sampling [[paper]](https://www.aclweb.org/anthology/D/D15/D15-1062.pdf)
+	* Kun Xu, Yansong Feng, Songfang Huang and Dongyan Zhao
+	* EMNLP 2015
+* Improved Relation Classification by Deep Recurrent Neural Networks with Data Augmentation [[paper]](https://arxiv.org/abs/1601.03651)
+	* Yan Xu, Ran Jia, Lili Mou, Ge Li, Yunchuan Chen, Yangyang Lu and Zhi Jin
+	* COLING 2016
+* Bidirectional Recurrent Convolutional Neural Network for Relation Classification [[paper]](http://www.aclweb.org/anthology/P16-1072)
+	* Rui Cai, Xiaodong Zhang and Houfeng Wang
+	* ACL 2016
+* Neural Relation Extraction via Inner-Sentence Noise Reduction and Transfer Learning [[paper]](https://arxiv.org/abs/1808.06738)
+	* Tianyi Liu, Xinsong Zhang, Wanhao Zhou, Weijia Jia
+	* EMNLP 2018
+	
 
 
-### Survey
+### Distant Supervision Approaches
+* Distant supervision for relation extraction without labeled data [[paper]](https://web.stanford.edu/~jurafsky/mintz.pdf) [[review]](/relation_extraction/Distant_supervision_for_relation_extraction_without_labeled_data.md)
+	* Mike Mintz, Steven Bills, Rion Snow and Dan Jurafsky
+	* ACL 2009
+* Knowledge-Based Weak Supervision for Information Extraction of Overlapping Relations [[paper]](http://www.aclweb.org/anthology/P11-1055) [[code]](http://aiweb.cs.washington.edu/ai/raphaelh/mr/)
+	* Raphael Hoffmann, Congle Zhang, Xiao Ling, Luke Zettlemoyer and Daniel S. Weld
+	* ACL 2011
+* Multi-instance Multi-label Learning for Relation Extraction [[paper]](http://www.aclweb.org/anthology/D12-1042) [[code]](https://nlp.stanford.edu/software/mimlre.shtml)
+	* Mihai Surdeanu, Julie Tibshirani, Ramesh Nallapati and Christopher D. Manning
+	* EMNLP-CoNLL 2012
+* Distant Supervision for Relation Extraction via Piecewise Convolutional Neural Networks [[paper]](http://www.emnlp2015.org/proceedings/EMNLP/pdf/EMNLP203.pdf) [[review]](/relation_extraction/Distant_Supervision_for_Relation_Extraction_via_Piecewise_Convolutional_Neural_Networks.md) [[code]](https://github.com/nicolay-r/sentiment-pcnn)
+	* Daojian Zeng, Kang Liu, Yubo Chen and Jun Zhao
+	* EMNLP 2015
+* Relation Extraction with Multi-instance Multi-label Convolutional Neural Networks [[paper]](https://pdfs.semanticscholar.org/8731/369a707046f3f8dd463d1fd107de31d40a24.pdf) [[review]](/relation_extraction/Relation_Extraction_with_Multi-instance_Multi-label_Convolutional_Neural_Networks.md) [[code]](https://github.com/may-/cnn-re-tf)
+	* Xiaotian Jiang, Quan Wang, Peng Li, Bin Wang
+	* COLING 2016
+* Incorporating Relation Paths in Neural Relation Extraction [[paper]](http://aclweb.org/anthology/D17-1186) [[review]](/relation_extraction/Incorporating_Relation_Paths_in_Neural_Relation_Extraction.md)
+	* Wenyuan Zeng, Yankai Lin, Zhiyuan Liu and Maosong Sun
+	* EMNLP 2017
+* Neural Relation Extraction with Selective Attention over Instances [[paper]](http://www.aclweb.org/anthology/P16-1200) [[code]](https://github.com/thunlp/OpenNRE/)
+	* Yankai Lin, Shiqi Shen, Zhiyuan Liu, Huanbo Luan and Maosong Sun
+	* ACL 2017
+* Learning local and global contexts using a convolutional recurrent network model for relation classification in biomedical text [[paper]](http://www.aclweb.org/anthology/K17-1032) [[code]](https://github.com/desh2608/crnn-relation-classification) [[code]](https://github.com/kwonmha/Convolutional-Recurrent-Neural-Networks-for-Relation-Extraction)
+	* Desh Raj, Sunil Kumar Sahu and Ashish Anan
+	* CoNLL 2017
+	
+* Hierarchical Relation Extraction with Coarse-to-Fine Grained Attention[[paper]](https://aclweb.org/anthology/D18-1247)[[code]](https://github.com/thunlp/HNRE)
+	* Xu Han, Pengfei Yu∗, Zhiyuan Liu, Maosong Sun, Peng Li
+	* EMNLP 2018
+* RESIDE: Improving Distantly-Supervised Neural Relation Extraction using Side Information [[paper]](http://malllabiisc.github.io/publications/papers/reside_emnlp18.pdf) [[code]](https://github.com/malllabiisc/RESIDE)
+	* Shikhar Vashishth, Rishabh Joshi, Sai Suman Prayaga, Chiranjib Bhattacharyya and Partha Talukdar
+	* EMNLP 2018
+	
+	
+### Language Models
 
-* Deep Learning in Knowledge Graph (2018), [[Note]](https://github.com/BrambleXu/knowledge-graph-learning/issues/31)
-* 知识图谱研究进展 (2017), 漆桂林等人. [[PDF]](http://tie.istic.ac.cn/ch/reader/create_pdf.aspx?file_no=201701002&flag=&journal_id=qbgc&year_id=2017)
-* 知识图谱构建技术综述 (2016), 刘峤等人. [[PDF]](http://crad.ict.ac.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=3127)
-* 知识图谱技术综述 (2016), 徐增林等人. [[PDF]](http://www.xml-data.org/dzkj-nature/html/201645589.htm)
-* 知识图谱：大数据语义链接的基石 (2014), 李涓子. [[PPT]](http://bj.bcebos.com/cips-upload/kg2/kg2_ljz.pdf)
-* 垂直知识图谱构造工具与行业应用 (2014), 阮彤. [[PPT]](http://bj.bcebos.com/cips-upload/kg2/kg2_rt.pdf)
-* [Summary of Translate Model for Knowledge Graph Embedding](https://medium.com/@zhuixiyou/summary-of-translate-model-for-knowledge-graph-embedding-29042be64273)
+* Enriching Pre-trained Language Model with Entity Information for Relation Classification [[paper]](https://arxiv.org/pdf/1905.08284.pdf)
+    * Shanchan Wu, Yifan He
+    * arXiv 2019
+
+### Few-Shot Learning Approaches
+* FewRel: A Large-Scale Supervised Few-Shot Relation Classification Dataset with State-of-the-Art Evaluation [[paper]](https://arxiv.org/abs/1810.10147) [[website]](http://zhuhao.me/fewrel) [[code]](https://github.com/ProKil/FewRel)
+	* Xu Han, Hao Zhu, Pengfei Yu, Ziyun Wang, Yuan Yao, Zhiyuan Liu, Maosong Sun
+	* EMNLP 2018
 
 
-## Courses and Lectures
+### Miscellaneous
+* Jointly Extracting Relations with Class Ties via Effective Deep Ranking [[paper]](http://aclweb.org/anthology/P17-1166)
+	* Hai Ye, Wenhan Chao, Zhunchen Luo and Zhoujun Li
+	* ACL 2017
+* End-to-End Neural Relation Extraction with Global Optimization [[paper]](http://aclweb.org/anthology/D17-1182)
+	* Meishan Zhang, Yue Zhang and Guohong Fu
+	* EMNLP 2017
+* Adversarial Training for Relation Extraction [[paper]](https://people.eecs.berkeley.edu/~russell/papers/emnlp17-relation.pdf)
+	* Yi Wu, David Bamman and Stuart Russell
+	* EMNLP 2017
+* A neural joint model for entity and relation extraction from biomedical text[[paper]](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1609-9)
+	* Fei Li, Meishan Zhang, Guohong Fu and Donghong Ji
+	* BMC bioinformatics 2017
+* Joint Extraction of Entities and Relations Using Reinforcement Learning and Deep Learning [[paper]](https://www.hindawi.com/journals/cin/2017/7643065/)
+	* Yuntian Feng, Hongjun Zhang, Wenning Hao, and Gang Chen
+	* Journal of Computational Intelligence and Neuroscience 2017
 
-* [从零开始构建知识图谱（知乎专栏）](https://zhuanlan.zhihu.com/c_1018901137012928512)
+[Back to Top](#contents)
 
 
 ## Datasets
+* SemEval-2010 Task 8 [[paper]](http://www.aclweb.org/anthology/S10-1006) [[download]](https://docs.google.com/leaf?id=0B_jQiLugGTAkMDQ5ZjZiMTUtMzQ1Yy00YWNmLWJlZDYtOWY1ZDMwY2U4YjFk&sort=name&layout=list&num=50)
+	* Multi-Way Classification of Semantic Relations Between Pairs of Nominals
+* New York Times (NYT) Corpus [[paper]](http://www.riedelcastro.org//publications/papers/riedel10modeling.pdf) [[download]](https://catalog.ldc.upenn.edu/LDC2008T19)
+	* This dataset was generated by aligning *Freebase* relations with the NYT corpus, with sentences from the years 2005-2006 used as the training corpus and sentences from 2007 used as the testing corpus.
+* FewRel: Few-Shot Relation Classification Dataset [[paper]](https://arxiv.org/abs/1810.10147) [[Website]](http://zhuhao.me/fewrel)
+	* This dataset is a supervised few-shot relation classification dataset. The corpus is Wikipedia and the knowledge base used to annotate the corpus is Wikidata.
 
-### Relation Extraction Dataset
+For state of the art results check out [nlpprogress.com on relation extraction](https://nlpprogress.com/english/relationship_extraction.html)
 
-- [SemEval-2010 Task 8](https://github.com/sahitya0000/Relation-Classification), [link 2](https://github.com/shashwath94/Relation-Extraction-using-CNN)
-- [TACRED(charge)](https://nlp.stanford.edu/projects/tacred/)
-
-### Open datasets
-
-* [Annotated-Semantic-Relationships-Datasets(English)](https://github.com/davidsbatista/Annotated-Semantic-Relationships-Datasets)
-* [OpenKG.CN Datasets List(Chinese)](http://openkg.cn/dataset)
-* [Zhishi.me(Chinese)](http://zhishi.me/)
-
-## Implementations and Tools
-
-### Implementations
-
-* [Knowledge Graph Demo (上市公司高管图谱)](https://github.com/Shuang0420/knowledge_graph_demo), [文章](http://www.shuang0420.com/2017/09/05/%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98-%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1%E5%88%9D%E6%8E%A2/)
-* [KGQA_HLM (红楼梦 人物关系可视化及问答系统)](https://github.com/chizhu/KGQA_HLM)
-* [从零开始搭建一个电影知识图谱](https://github.com/Pelhans/Z_knowledge_graph)
-* [基于elasticsearch的KBQA实现及示例](http://www.openkg.cn/tool/elasticsearch-kbqa)
-* [电影知识图谱以及KBQA实现](https://github.com/SimmerChan/KG-demo-for-movie), [知乎文章](https://zhuanlan.zhihu.com/p/33363861)
+[Back to Top](#contents)
 
 
-
-### Tools
-
-* [[Resource] Useful tools & lecture related to data science(中文)](https://github.com/BrambleXu/knowledge-graph-learning/issues/131)
-* [Annotation tool: doccano](https://github.com/chakki-works/doccano)
-* [OpenNRE: An Open-Source Package for Neural Relation Extraction (NRE) implemented in TensorFlow](https://github.com/thunlp/OpenNRE/), [NER paper](https://github.com/thunlp/NREPapers)
-* [DeepDive: a system to extract value from dark data](https://github.com/HazyResearch/deepdive), [Homepage](http://deepdive.stanford.edu/), [Papers](https://github.com/HazyResearch/deepdive/blob/master/doc/papers.md)
-* [HanLP: Han Language Processing（汉语言处理包）](https://github.com/hankcs/HanLP)
-* [句法依存分析抽取事实三元组](https://github.com/twjiang/fact_triple_extraction)
-* [cnSchema - 开放的中文知识图谱schema](https://github.com/cnschema/cnschema)
-* [知识图谱API](https://github.com/ownthink/KnowledgeGraph)
-* [OpenKE: An Open-source Framework for Knowledge Embedding](https://github.com/thunlp/OpenKE)
-* [Zhishi.me: Chinese Linking Open Data Online API](http://zhishi.me/)
-
-## Community
-
-* [OpenKG.CN (开放的中文知识图谱)](http://openkg.cn/)
-* [北京知识图谱学习小组](https://github.com/memect/kg-beijing)
+## Videos and Lectures
+* [Stanford University: CS124](https://web.stanford.edu/class/cs124/), Dan Jurafsky
+	* (Video) [Week 5: Relation Extraction and Question](https://www.youtube.com/watch?v=5SUzf6252_0&list=PLaZQkZp6WhWyszpcteV4LFgJ8lQJ5WIxK&ab_channel=FromLanguagestoInformation)
+* [Washington University: CSE517](https://courses.cs.washington.edu/courses/cse517/), Luke Zettlemoyer
+	* (Slide) [Relation Extraction 1](https://courses.cs.washington.edu/courses/cse517/13wi/slides/cse517wi13-RelationExtraction.pdf)
+	* (Slide) [Relation Extraction 2](https://courses.cs.washington.edu/courses/cse517/13wi/slides/cse517wi13-RelationExtractionII.pdf)
+* [New York University: CSCI-GA.2590](https://cs.nyu.edu/courses/spring17/CSCI-GA.2590-001/), Ralph Grishman
+	* (Slide) [Relation Extraction: Rule-based Approaches](https://cs.nyu.edu/courses/spring17/CSCI-GA.2590-001/DependencyPaths.pdf)
+* [Michigan University: Coursera](https://ai.umich.edu/portfolio/natural-language-processing/), Dragomir R. Radev
+	* (Video) [Lecture 48: Relation Extraction](https://www.youtube.com/watch?v=TbrlRei_0h8&ab_channel=ArtificialIntelligence-AllinOne)
+* [Virginia University: CS6501-NLP](http://web.cs.ucla.edu/~kwchang/teaching/NLP16/), Kai-Wei Chang
+	* (Slide) [Lecture 24: Relation Extraction](http://web.cs.ucla.edu/~kwchang/teaching/NLP16/slides/24-relation.pdf)
 
 
+[Back to Top](#contents)
 
 
+## Systems
+* [DeepDive](http://deepdive.stanford.edu/)
+* [Stanford Relation Extractor](https://nlp.stanford.edu/software/relationExtractor.html)
+
+[Back to Top](#contents)
+
+
+## License
+[![license](https://camo.githubusercontent.com/60561947585c982aee67ed3e3b25388184cc0aa3/687474703a2f2f6d6972726f72732e6372656174697665636f6d6d6f6e732e6f72672f70726573736b69742f627574746f6e732f38387833312f7376672f63632d7a65726f2e737667)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+To the extent possible under law, [Joohong Lee](https://roomylee.github.io/) has waived all copyright and related or neighboring rights to this work.
