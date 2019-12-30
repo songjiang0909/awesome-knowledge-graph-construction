@@ -1,9 +1,5 @@
 # Awesome Relation Extraction [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of awesome resources dedicated to Relation Extraction, inspired by [awesome-nlp](https://github.com/keon/awesome-nlp) and [awesome-deep-vision](https://github.com/kjw0612/awesome-deep-vision).
-
-**Contributing**: Please feel free to make *[pull requests](https://github.com/roomylee/awesome-relation-extraction/pulls)*.
-
 ## Contents
 * [Research Trends and Surveys](#research-trends-and-surveys)
 * [Papers](#papers)
