@@ -15,16 +15,11 @@ A collection of knowledge graph construction resources.
 
 
 ## Research Trends and Surveys
-* [NLP progress: Relationship Extraction](https://nlpprogress.com/english/relationship_extraction.html)
-* [A Survey of Deep Learning Methods for Relation Extraction](https://arxiv.org/abs/1705.03645) (Kumar, 2017)
-* [A Survey on Relation Extraction](https://www.cs.cmu.edu/~nbach/papers/A-survey-on-Relation-Extraction.pdf) (Bach and Badaskar, 2017)
-* [Relation Extraction: A Survey](https://arxiv.org/abs/1712.05191) (Pawar et al., 2017)
-* [A Review on Entity Relation Extraction](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8269916) (Zhang et al., 2017)
-* [Review of Relation Extraction Methods: What is New Out There?](http://pers-www.wlv.ac.uk/~in0988/documents/aist-final.pdf) (Konstantinova et al., 2014)
-* [100 Best Github: Relation Extraction](http://meta-guide.com/software-meta-guide/100-best-github-relation-extraction)
 
 
 ## Papers
+
+* Learning Knowledge Graphs for Question Answering through Conversational Dialog. [[paper]](https://homes.cs.washington.edu/~hannaneh/papers/knowbot.pdf)
 
 
 
