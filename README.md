@@ -66,7 +66,6 @@ For state of the art results check out [nlpprogress.com on relation extraction](
 
 
 ## Systems
-* [DeepDive](http://deepdive.stanford.edu/)
-* [Stanford Relation Extractor](https://nlp.stanford.edu/software/relationExtractor.html)
+* [DeepDive](http://deepdive.stanford.edu/kbc)
 
 [Back to Top](#contents)
