@@ -201,9 +201,3 @@ For state of the art results check out [nlpprogress.com on relation extraction](
 * [Stanford Relation Extractor](https://nlp.stanford.edu/software/relationExtractor.html)
 
 [Back to Top](#contents)
-
-
-## License
-[![license](https://camo.githubusercontent.com/60561947585c982aee67ed3e3b25388184cc0aa3/687474703a2f2f6d6972726f72732e6372656174697665636f6d6d6f6e732e6f72672f70726573736b69742f627574746f6e732f38387833312f7376672f63632d7a65726f2e737667)](https://creativecommons.org/publicdomain/zero/1.0/)
-
-To the extent possible under law, [Joohong Lee](https://roomylee.github.io/) has waived all copyright and related or neighboring rights to this work.
