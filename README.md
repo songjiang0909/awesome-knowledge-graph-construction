@@ -13,7 +13,7 @@ A collection of knowledge graph construction resources.
 * [Systems](#systems)
 
 
-## Research Trends and Surveys
+## Research Trends and Surveys and
 * [NLP progress: Relationship Extraction](https://nlpprogress.com/english/relationship_extraction.html)
 * [A Survey of Deep Learning Methods for Relation Extraction](https://arxiv.org/abs/1705.03645) (Kumar, 2017)
 * [A Survey on Relation Extraction](https://www.cs.cmu.edu/~nbach/papers/A-survey-on-Relation-Extraction.pdf) (Bach and Badaskar, 2017)
