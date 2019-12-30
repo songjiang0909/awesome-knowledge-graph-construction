@@ -1,4 +1,6 @@
-# Awesome Relation Extraction [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Knowledge Graph Construction [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+A collection of knowledge graph construction resources.
 
 ## Contents
 * [Research Trends and Surveys](#research-trends-and-surveys)
