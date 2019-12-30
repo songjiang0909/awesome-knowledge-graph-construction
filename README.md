@@ -166,8 +166,10 @@ A collection of knowledge graph construction resources.
 ## Lectures
 
 ### Tutorials
-* Mining Knowledge Graphs from Text [[link]](https://kgtutorial.github.io/)
-
+* Mining Knowledge Graphs from Text. [[link]](https://kgtutorial.github.io/)
+	* Jay Pujara (USC), Sameer Singh (UCI)
+	* WSDM'18 
+* Constructing Domain-specific Knowledge Graphs AAAI'18 [[link]](https://usc-isi-i2.github.io/AAAI18Tutorial/)
 
 
 
