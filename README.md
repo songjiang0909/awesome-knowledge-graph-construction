@@ -61,6 +61,9 @@ Triples are extracted automatically from semi-structured text (e.g., infoboxes i
 * DBpedia: A Nucleus for a Web of Open Data [[paper]](https://www.cis.upenn.edu/~zives/research/dbpedia.pdf)
 	* S. Auer, C. Bizer, G. Kobilarov, J. Lehmann, R. Cyganiak, and Z. Ives (University of Pennsylvania & Universit¨at Leipzig)
 	* The Semantic Web'07
+* CERES: Distantly Supervised Relation Extraction from the Semi-Structured Web [[paper]](http://www.vldb.org/pvldb/vol11/p1084-lockard.pdf)
+	* Colin Lockard, Xin Luna Dong, Arash Einolghozati and Arash Einolghozati
+	* VLDB'18
 
 ### Automated Unstructured Approaches
 
@@ -68,9 +71,6 @@ Triples are extracted automatically from unstructured text via machine learning 
 
 #### Schema-based Approaches
 
-* Knowledge Vault: A Web-scale Approach to Probabilistic Knowledge Fusion [[paper]](https://www.cs.ubc.ca/~murphyk/Papers/kv-kdd14.pdf)
-	* Xin Luna Dong et al (Google)
-	* KDD'14
 * NELL: Toward an Architecture for Never-Ending Language Learning [[paper]](http://www.cs.cmu.edu/~acarlson/papers/carlson-aaai10.pdf)
 	* Andrew Carlson, Justin Betteridge, Bryan Kisiel, Burr Settles, Estevam R. Hruschka Jr., and Tom M. Mitchell (CMU)
 	* AAAI'10
@@ -80,6 +80,9 @@ Triples are extracted automatically from unstructured text via machine learning 
 * DeepDive/Elementary: Large-scale knowledge-base construction via machine learning and statistical inference [[paper]](http://infolab.stanford.edu/hazy/papers/elementary_journal.pdf)
 	* Feng Niu, Ce Zhang, Christopher Ré, and Jude Shavlik (University of Wisconsin-Madison, Stanford University)
 	* IJSWIS'12
+* Knowledge Vault: A Web-scale Approach to Probabilistic Knowledge Fusion [[paper]](https://www.cs.ubc.ca/~murphyk/Papers/kv-kdd14.pdf)
+	* Xin Luna Dong et al (Google)
+	* KDD'14
 * Sealing Pipeline Leaks and Understanding Chinese [[paper]](https://www.cs.princeton.edu/~danqic/papers/tac2016.pdf)
 	* Yuhao Zhang, Arun Chaganty, Ashwin Paranjape, Danqi Chen, Jason Bolton, Peng Qi, Christopher D. Manning (Stanford University)
 	* TAC'16
@@ -94,12 +97,18 @@ Triples are extracted automatically from unstructured text via machine learning 
 
 #### Schema-free Approaches (Open Information Extraction)
 
+* Open Information Extraction from the Web [[paper]](https://www.aaai.org/Papers/IJCAI/2007/IJCAI07-429.pdf)
+	* Michele Banko, Michael J Cafarella, Stephen Soderland, Matt Broadhead and Oren Etzioni (University of Washington)
+	* AAAI'07
 * Identifying relations for open information extraction [[paper]](https://www.aclweb.org/anthology/D11-1142.pdf)
 	* Anthony Fader, Stephen Soderland, and Oren Etzioni (University of Washington)
 	* EMNLP'11
 * Open Language Learning for Information Extraction [[paper]](https://homes.cs.washington.edu/~mausam/papers/emnlp12a.pdf)
 	* Mausam, Michael Schmitz, Robert Bart, Stephen Soderland, and Oren Etzioni (University of Washington)
 	* EMNLP'12
+* Neural Open Information Extraction [[paper]](https://arxiv.org/pdf/1805.04270.pdf)
+	* Lei Cui, Furu Wei, and Ming Zhou (MSRA)
+	* ACL'18
 * COMET: Commonsense Transformers for Automatic Knowledge Graph Construction [[paper]](https://arxiv.org/pdf/1906.05317.pdf)
 	* Antoine Bosselut, Hannah Rashkin, Maarten Sap, Chaitanya Malaviya, Asli Celikyilmaz and Yejin Choi (University of Washington)
 	* ACL'19
@@ -153,5 +162,5 @@ For state of the art results check out [nlpprogress.com on relation extraction](
 
 ## Systems
 * DeepDive (Christopher Ré el al, Stanford University) [[paper]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5361060/pdf/nihms826683.pdf) [System](http://deepdive.stanford.edu/kbc)
-
+* Open Information Extraction (Stanford University NLP) [System](https://nlp.stanford.edu/software/openie.html)
 [Back to Top](#contents)
