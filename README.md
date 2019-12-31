@@ -1,6 +1,6 @@
 # Awesome Knowledge Graph Construction [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-a collection of knowledge graph construction resources.
+A collection of knowledge graph construction resources.
 
 ## Contents
 * [Research Trends and Surveys](#research-trends-and-surveys)
@@ -10,7 +10,7 @@ a collection of knowledge graph construction resources.
 	* [Automated Semi-structured Approaches](#automated-semi-structured-approaches)
 	* [Automated Unstructured Approaches](#automated-unstructured-approaches)
 		* [Schema-based Approaches](#schema-based-approaches)
-		* [Schema-free Approaches (Open Information Extraction)](#schema-free-approaches-(open-information-extraction))
+		* [Open Information Extraction](#open-information-extraction)
 * [Lectures](#lectures)
 	* [Tutorials](#tutorials)
 	* [Videos and Slides](#videos-and-slides)
@@ -115,7 +115,7 @@ Triples are extracted automatically from unstructured text via machine learning 
 
 
 
-#### Schema-free Approaches (Open Information Extraction)
+#### Open Information Extraction
 
 * Open Information Extraction from the Web [[paper]](https://www.aaai.org/Papers/IJCAI/2007/IJCAI07-429.pdf)
 	* Brief introduction: First paper for open information extraction with a rule based method.
