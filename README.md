@@ -1,6 +1,6 @@
 # Awesome Knowledge Graph Construction [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A collection of knowledge graph construction resources.
+a collection of knowledge graph construction resources.
 
 ## Contents
 * [Research Trends and Surveys](#research-trends-and-surveys)
@@ -13,7 +13,7 @@ A collection of knowledge graph construction resources.
 		* [Schema-free Approaches (Open Information Extraction)](#schema-free-approaches-(open-information-extraction))
 * [Lectures](#lectures)
 	* [Tutorials](#tutorials)
-	* [Videos and Slides](videos-and-slides)
+	* [Videos and Slides](#videos-and-slides)
 * [Datasets](#datasets)
 * [Systems and Tools](#systems-and-tools)
 
