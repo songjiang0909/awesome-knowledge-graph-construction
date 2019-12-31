@@ -28,42 +28,51 @@ A collection of knowledge graph construction resources.
 Triples are created manually by a closed group of experts.
 
 * CYC: A Large-scale Investment in Knowledge Infrastructure [[paper]](https://www.cc.gatech.edu/~isbell/classes/reading/papers/lenat95cyc.pdf)
-	* Douglas B. Lenat
-	* Communications of the ACM, 1995
+	* Brief introduction: A universal schema of roughly 105 general concepts spanning human reality. 
+	* Authors: Douglas B. Lenat
+	* Venue: Communications of the ACM, 1995
 * WordNet: A Lexical Database for English [[paper]](http://l2r.cs.uiuc.edu/Teaching/CS598-05/Papers/miller95.pdf)
-	* GA Miller (Princeton University)
-	* Communications of the ACM, 1995
+	* Brief introduction: WordNet is an online lexical database under program control.
+	* Authors: GA Miller (Princeton University)
+	* Venue: Communications of the ACM, 1995
 * The Unified Medical Language System (UMLS): integrating biomedical terminology [[paper]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC308795/)
-	* Olivier Bodenreider (Lister Hill National Center for Biomedical Communications)
-	* Nucleic acids research, 2004
+	* Brief introduction: A biomedical vocabularies developed by the US National Library of Medicine. The UMLS integrates over 900000 concepts, as well as 12 million relations among these concepts.
+	* Authors: Olivier Bodenreider (Lister Hill National Center for Biomedical Communications)
+	* Venue: Nucleic acids research, 2004
 
 ### Collaborative Approaches
 
 Triples are created manually by an open group of volunteers.
 
 * Wikidata: a free collaborative knowledgebase [[paper]](http://ws.nju.edu.cn/courses/ke/reading/3_wikidata.pdf)
-	* DENNY VRANDECˇIC´ and  MARKUS KRÖTZSCH 
-	* Communications of the ACM, 2014
+	* Wikidata is a collaborative knowledge base, collecting structured data to provide support for Wikipedia, Wikimedia Commons.
+	* Authors: DENNY VRANDECˇIC´ and  MARKUS KRÖTZSCH 
+	* Venue: Communications of the ACM, 2014
 * Freebase: a collaboratively created graph database for structuring human knowledge [[paper]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.538.7139&rep=rep1&type=pdf)
-	* Kurt Bollacker, Colin Evans, Praveen Paritosh, Tim Sturge, Jamie Taylor (Metaweb Technologies, Inc)
-	* SIGMOD'08
+	* Brief introduction: Freebase is a  tuple knowledge base used to structure general human knowledge, which is collaboratively created, structured, and maintained.
+	* Authors: Kurt Bollacker, Colin Evans, Praveen Paritosh, Tim Sturge, Jamie Taylor (Metaweb Technologies, Inc)
+	* Venue: SIGMOD'08
 
 ### Automated Semi-structured Approaches
 
 Triples are extracted automatically from semi-structured text (e.g., infoboxes in Wikipedia) via hand-crafted rules, learned rules, or regular expressions 
 
-* Yago: A Core of Semantic Knowledge [[paper]](https://www2007.org/papers/paper391.pdf)
-	* Fabian M. Suchanek, Gjergji Kasneci, Gerhard Weikum (Max-Planck-Institut)
-	* WWW'07
+* YAGO: A Core of Semantic Knowledge [[paper]](https://www2007.org/papers/paper391.pdf)
+	* Brief introduction: Triples are automatically extracted from Wikipedia and unified with WordNet, using a combination of rule-based and heuristic methods.
+	* Authors: Fabian M. Suchanek, Gjergji Kasneci, Gerhard Weikum (Max-Planck-Institut)
+	* Venue: WWW'07
 * YAGO2: A spatially and temporally enhanced knowledge base from Wikipedia [[paper]](https://www.sciencedirect.com/science/article/pii/S0004370212000719)
-	* Johannes Hoffart, Fabian M. Suchanek, Klaus Berberich and Gerhard Weikum (Max-Planck-Institut)
-	* Artificial Intelligence, 2013
+	* Brief introduction: An extension of the YAGO knowledge base, in which triples are anchored in both time and space. YAGO2 is built automatically from Wikipedia, GeoNames, and WordNet.
+	* Authors: Johannes Hoffart, Fabian M. Suchanek, Klaus Berberich and Gerhard Weikum (Max-Planck-Institut)
+	* Venue: Artificial Intelligence, 2013
 * DBpedia: A Nucleus for a Web of Open Data [[paper]](https://www.cis.upenn.edu/~zives/research/dbpedia.pdf)
-	* S. Auer, C. Bizer, G. Kobilarov, J. Lehmann, R. Cyganiak, and Z. Ives (University of Pennsylvania & Universit¨at Leipzig)
-	* The Semantic Web'07
+	* Brief introduction: Extract triples from Wikipedia encyclopedia based on a templated pattern matching method.
+	* Authors: S. Auer, C. Bizer, G. Kobilarov, J. Lehmann, R. Cyganiak, and Z. Ives (University of Pennsylvania & Universit¨at Leipzig)
+	* Venue: The Semantic Web'07
 * CERES: Distantly Supervised Relation Extraction from the Semi-Structured Web [[paper]](http://www.vldb.org/pvldb/vol11/p1084-lockard.pdf)
-	* Colin Lockard, Xin Luna Dong, Arash Einolghozati and Arash Einolghozati
-	* VLDB'18
+	* Brief introduction: Propose an automatic knowledge extraction framework that improves the distant supervision assumption for triples extraction.
+	* Authors: Colin Lockard, Xin Luna Dong, Arash Einolghozati and Arash Einolghozati
+	* Venue: VLDB'18
 
 ### Automated Unstructured Approaches
 
@@ -143,7 +152,7 @@ Triples are extracted automatically from unstructured text via machine learning 
 	* This dataset was generated by aligning *Freebase* relations with the NYT corpus, with sentences from the years 2005-2006 used as the training corpus and sentences from 2007 used as the testing corpus.
 * FewRel: Few-Shot Relation Classification Dataset [[paper]](https://arxiv.org/abs/1810.10147) [[Website]](http://zhuhao.me/fewrel)
 	* This dataset is a supervised few-shot relation classification dataset. The corpus is Wikipedia and the knowledge base used to annotate the corpus is Wikidata.
-* TupleInf Open IE Dataset [[Websit]](http://data.allenai.org/tuple-ie/)
+* TupleInf Open IE Dataset [[Website]](http://data.allenai.org/tuple-ie/)
 	* The TupleInf Open IE dataset contains Open IE tuples extracted from 263K sentences that were used by the solver in "Answering Complex Questions Using Open Information Extraction".
 
 
