@@ -5,13 +5,17 @@ A collection of knowledge graph construction resources.
 ## Contents
 * [Research Trends and Surveys](#research-trends-and-surveys)
 * [Papers](#papers)
-	* [Supervised Approaches](#supervised-approaches)
-	* [Distant Supervision Approaches](#distant-supervision-approaches)
-	* [Language Models](#language-models)
-* [Lectures](#courses-and-lectures)
+	* [Curated Approaches](#curated-approaches)
+	* [Collaborative Approaches](#collaborative-approaches)
+	* [Automated Semi-structured Approaches](#automated-semi-structured-approaches)
+	* [Automated Unstructured Approaches](#automated-unstructured-approaches)
+		* [Schema-based Approaches](#schema-based-approaches)
+		* [Schema-free Approaches (Open Information Extraction)](#schema-free-approaches-(open-information-extraction))
+* [Lectures](#lectures)
 	* [Tutorials](#tutorials)
+	* [Videos and Slides](videos-and-slides)
 * [Datasets](#datasets)
-* [Implenmetation and Systems](#implenmetation-and-systems)
+* [Systems and Tools](#systems-and-tools)
 
 
 ## Research Trends and Surveys
