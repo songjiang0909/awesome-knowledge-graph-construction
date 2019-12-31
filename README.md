@@ -19,7 +19,7 @@ A collection of knowledge graph construction resources.
 * From Information to Knowledge: Harvesting Entities and Relationships from Web Sources (Weikum et al, 2010) [[paper]](https://people.mpi-inf.mpg.de/~weikum/pods2010-weikum&theobald.pdf)
 * Advances in Automated Knowledge Base Construction (Suchanek et al, 2012) [[paper]](https://pdfs.semanticscholar.org/709e/64be9cc9eb7c8b29bf49237cd2df835efd24.pdf)
 * TAC-Knowledge Base Population challenge (Ji et al) [[2019]](https://blender.cs.illinois.edu/paper/ji2019kbp.pdf) [[2017]](http://nlp.cs.rpi.edu/paper/kbp2017.pdf) [[2016]](http://nlp.cs.rpi.edu/paper/kbp2016.pdf) [[2015]](https://pdfs.semanticscholar.org/955a/78a8a5e4e31d10ffc827f365bd4c4f30d563.pdf)
-
+* A Survey on Open Information Extraction (Niklaus el al 2018) [[paper]](https://www.aclweb.org/anthology/C18-1326.pdf)
 
 ## Papers
 
