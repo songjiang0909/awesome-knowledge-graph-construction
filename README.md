@@ -17,9 +17,8 @@ A collection of knowledge graph construction resources.
 ## Research Trends and Surveys
 
 * From Information to Knowledge: Harvesting Entities and Relationships from Web Sources (Weikum et al, 2010) [[paper]](https://people.mpi-inf.mpg.de/~weikum/pods2010-weikum&theobald.pdf)
-* Knowledge Base Population: Successful Approaches and Challenges (Ji et al, 2011) [[paper]](https://www.aclweb.org/anthology/P11-1115.pdf)
 * Advances in Automated Knowledge Base Construction (Suchanek et al, 2012) [[paper]](https://pdfs.semanticscholar.org/709e/64be9cc9eb7c8b29bf49237cd2df835efd24.pdf)
-
+* TAC-Knowledge Base Population challenge (Ji et al) [[2019]](https://blender.cs.illinois.edu/paper/ji2019kbp.pdf) [[2017]](http://nlp.cs.rpi.edu/paper/kbp2017.pdf) [[2016]](http://nlp.cs.rpi.edu/paper/kbp2016.pdf) [[2015]](https://pdfs.semanticscholar.org/955a/78a8a5e4e31d10ffc827f365bd4c4f30d563.pdf)
 
 
 ## Papers
@@ -30,13 +29,13 @@ Triples are created manually by a closed group of experts.
 
 * CYC: A Large-scale Investment in Knowledge Infrastructure [[paper]](https://www.cc.gatech.edu/~isbell/classes/reading/papers/lenat95cyc.pdf)
 	* Douglas B. Lenat
-	* Communications of the ACM 1995
+	* Communications of the ACM, 1995
 * WordNet: A Lexical Database for English [[paper]](http://l2r.cs.uiuc.edu/Teaching/CS598-05/Papers/miller95.pdf)
 	* GA Miller (Princeton University)
-	* Communications of the ACM 1995
+	* Communications of the ACM, 1995
 * The Unified Medical Language System (UMLS): integrating biomedical terminology [[paper]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC308795/)
 	* Olivier Bodenreider (Lister Hill National Center for Biomedical Communications)
-	* Nucleic acids research 2004
+	* Nucleic acids research, 2004
 
 ### Collaborative Approaches
 
@@ -44,7 +43,7 @@ Triples are created manually by an open group of volunteers.
 
 * Wikidata: a free collaborative knowledgebase [[paper]](http://ws.nju.edu.cn/courses/ke/reading/3_wikidata.pdf)
 	* DENNY VRANDECˇIC´ and  MARKUS KRÖTZSCH 
-	* Communications of the ACM 2014
+	* Communications of the ACM, 2014
 * Freebase: a collaboratively created graph database for structuring human knowledge [[paper]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.538.7139&rep=rep1&type=pdf)
 	* Kurt Bollacker, Colin Evans, Praveen Paritosh, Tim Sturge, Jamie Taylor (Metaweb Technologies, Inc)
 	* SIGMOD'08
@@ -58,10 +57,10 @@ Triples are extracted automatically from semi-structured text (e.g., infoboxes i
 	* WWW'07
 * YAGO2: A spatially and temporally enhanced knowledge base from Wikipedia [[paper]](https://www.sciencedirect.com/science/article/pii/S0004370212000719)
 	* Johannes Hoffart, Fabian M. Suchanek, Klaus Berberich and Gerhard Weikum (Max-Planck-Institut)
-	* Artificial Intelligence 2013
+	* Artificial Intelligence, 2013
 * DBpedia: A Nucleus for a Web of Open Data [[paper]](https://www.cis.upenn.edu/~zives/research/dbpedia.pdf)
 	* S. Auer, C. Bizer, G. Kobilarov, J. Lehmann, R. Cyganiak, and Z. Ives (University of Pennsylvania & Universit¨at Leipzig)
-	* The Semantic Web 2007
+	* The Semantic Web'07
 
 ### Automated Unstructured Approaches
 
@@ -81,6 +80,17 @@ Triples are extracted automatically from unstructured text via machine learning 
 * DeepDive/Elementary: Large-scale knowledge-base construction via machine learning and statistical inference [[paper]](http://infolab.stanford.edu/hazy/papers/elementary_journal.pdf)
 	* Feng Niu, Ce Zhang, Christopher Ré, and Jude Shavlik (University of Wisconsin-Madison, Stanford University)
 	* IJSWIS'12
+* Sealing Pipeline Leaks and Understanding Chinese [[paper]](https://www.cs.princeton.edu/~danqic/papers/tac2016.pdf)
+	* Yuhao Zhang, Arun Chaganty, Ashwin Paranjape, Danqi Chen, Jason Bolton, Peng Qi, Christopher D. Manning (Stanford University)
+	* TAC'16
+* CoType: Joint Extraction of Typed Entities and Relations with Knowledge Bases [[paper]](https://arxiv.org/pdf/1610.08763.pdf)
+	* Xiang Ren, Zeqiu Wu, Wenqi He, Meng Qu, Clare R. Voss, Heng Ji, Tarek F. Abdelzaher, Jiawei Han (UIUC & Army Research Laboratory)
+	* WWW'17
+* Discovering Implicit Knowledge with Unary Relations [[paper]](https://www.aclweb.org/anthology/P18-1147.pdf)
+	* Michael Glass, Alfio Gliozzo (IBM Research)
+	* ACL'18
+
+
 
 #### Schema-free Approaches (Open Information Extraction)
 
@@ -90,7 +100,10 @@ Triples are extracted automatically from unstructured text via machine learning 
 * Open Language Learning for Information Extraction [[paper]](https://homes.cs.washington.edu/~mausam/papers/emnlp12a.pdf)
 	* Mausam, Michael Schmitz, Robert Bart, Stephen Soderland, and Oren Etzioni (University of Washington)
 	* EMNLP'12
-*
+* COMET: Commonsense Transformers for Automatic Knowledge Graph Construction [[paper]](https://arxiv.org/pdf/1906.05317.pdf)
+	* Antoine Bosselut, Hannah Rashkin, Maarten Sap, Chaitanya Malaviya, Asli Celikyilmaz and Yejin Choi (University of Washington)
+	* ACL'19
+
 
 * Learning Knowledge Graphs for Question Answering through Conversational Dialog [[paper]](https://homes.cs.washington.edu/~hannaneh/papers/knowbot.pdf)
 
@@ -139,6 +152,6 @@ For state of the art results check out [nlpprogress.com on relation extraction](
 
 
 ## Systems
-* [DeepDive](http://deepdive.stanford.edu/kbc)
+* DeepDive (Christopher Ré el al, Stanford University) [[paper]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5361060/pdf/nihms826683.pdf) [System](http://deepdive.stanford.edu/kbc)
 
 [Back to Top](#contents)
