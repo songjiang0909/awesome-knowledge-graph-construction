@@ -81,26 +81,33 @@ Triples are extracted automatically from unstructured text via machine learning 
 #### Schema-based Approaches
 
 * NELL: Toward an Architecture for Never-Ending Language Learning [[paper]](http://www.cs.cmu.edu/~acarlson/papers/carlson-aaai10.pdf)
-	* Andrew Carlson, Justin Betteridge, Bryan Kisiel, Burr Settles, Estevam R. Hruschka Jr., and Tom M. Mitchell (CMU)
-	* AAAI'10
+	* Brief introduction: Continuously extract extract new knowledge from the Web through self-learning on a small number of samples.
+	* Authors: Andrew Carlson, Justin Betteridge, Bryan Kisiel, Burr Settles, Estevam R. Hruschka Jr., and Tom M. Mitchell (CMU)
+	* Venue: AAAI'10
 * PROSPERA: Scalable knowledge harvesting with high precision and high recall [[paper]](http://www.nakashole.com/papers/2011-wsdm-prospera.pdf)
-	* Ndapandula Nakashole, Martin Theobald, Gerhard Weikum (Max Planck Institute)
-	* WSDM'11
+	* Brief introduction: Reconcile precision, recall and scalability by extended n-gram patten matching.
+	* Authors: Ndapandula Nakashole, Martin Theobald, Gerhard Weikum (Max Planck Institute)
+	* Venue: WSDM'11
 * DeepDive/Elementary: Large-scale knowledge-base construction via machine learning and statistical inference [[paper]](http://infolab.stanford.edu/hazy/papers/elementary_journal.pdf)
-	* Feng Niu, Ce Zhang, Christopher Ré, and Jude Shavlik (University of Wisconsin-Madison, Stanford University)
-	* IJSWIS'12
+	* Brief introductions: Propose a Markov logic-based  model and architecture for knowledge base construction (KBC) by integrating different kinds of data resources and KBC techniques.
+	* Authors: Feng Niu, Ce Zhang, Christopher Ré, and Jude Shavlik (University of Wisconsin-Madison, Stanford University)
+	* Venue: IJSWIS'12
 * Knowledge Vault: A Web-scale Approach to Probabilistic Knowledge Fusion [[paper]](https://www.cs.ubc.ca/~murphyk/Papers/kv-kdd14.pdf)
-	* Xin Luna Dong et al (Google)
-	* KDD'14
+	* Brief introduction:  Build Knowledge Vault, a Web-scale probabilistic knowledge base that combines extractions from Web content with prior knowledge derived from existing knowledge repositories based on distant supervision method.
+	* Authors: Xin Luna Dong et al (Google)
+	* Venue: KDD'14
 * Sealing Pipeline Leaks and Understanding Chinese [[paper]](https://www.cs.princeton.edu/~danqic/papers/tac2016.pdf)
-	* Yuhao Zhang, Arun Chaganty, Ashwin Paranjape, Danqi Chen, Jason Bolton, Peng Qi, Christopher D. Manning (Stanford University)
-	* TAC'16
+	* Brief introudction: Propose a combinational system consists of several ruled-based relation extractors and a distantly supervised extractor.
+	* Authors: Yuhao Zhang, Arun Chaganty, Ashwin Paranjape, Danqi Chen, Jason Bolton, Peng Qi, Christopher D. Manning (Stanford University)
+	* Venue: TAC'16
 * CoType: Joint Extraction of Typed Entities and Relations with Knowledge Bases [[paper]](https://arxiv.org/pdf/1610.08763.pdf)
-	* Xiang Ren, Zeqiu Wu, Wenqi He, Meng Qu, Clare R. Voss, Heng Ji, Tarek F. Abdelzaher, Jiawei Han (UIUC & Army Research Laboratory)
-	* WWW'17
+	* Brief introduction: Joint extraction of typed entities and relations with labeled data obtained from knowledge bases with distant supervision.
+	* Authors: Xiang Ren, Zeqiu Wu, Wenqi He, Meng Qu, Clare R. Voss, Heng Ji, Tarek F. Abdelzaher, Jiawei Han (UIUC & Army Research Laboratory)
+	* Venue: WWW'17
 * Discovering Implicit Knowledge with Unary Relations [[paper]](https://www.aclweb.org/anthology/P18-1147.pdf)
-	* Michael Glass, Alfio Gliozzo (IBM Research)
-	* ACL'18
+	* Brief introduction: Extract the implicit relation in text through coverting binary relations to unary relations.
+	* Authors: Michael Glass, Alfio Gliozzo (IBM Research)
+	* Venue: ACL'18
 
 
 
