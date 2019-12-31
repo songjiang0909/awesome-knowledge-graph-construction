@@ -114,20 +114,25 @@ Triples are extracted automatically from unstructured text via machine learning 
 #### Schema-free Approaches (Open Information Extraction)
 
 * Open Information Extraction from the Web [[paper]](https://www.aaai.org/Papers/IJCAI/2007/IJCAI07-429.pdf)
-	* Michele Banko, Michael J Cafarella, Stephen Soderland, Matt Broadhead and Oren Etzioni (University of Washington)
-	* AAAI'07
+	* Brief introduction: First paper for open information extraction with a rule based method.
+	* Authors: Michele Banko, Michael J Cafarella, Stephen Soderland, Matt Broadhead and Oren Etzioni (University of Washington)
+	* Venue: AAAI'07
 * Identifying relations for open information extraction [[paper]](https://www.aclweb.org/anthology/D11-1142.pdf)
-	* Anthony Fader, Stephen Soderland, and Oren Etzioni (University of Washington)
-	* EMNLP'11
+	* Brief introduction: Introduce syntactic and lexical constraints on binary relations expressed by verbs to reduce the uninformative and incoherent extractions.
+	* Authors: Anthony Fader, Stephen Soderland, and Oren Etzioni (University of Washington)
+	* Venue: EMNLP'11
 * Open Language Learning for Information Extraction [[paper]](https://homes.cs.washington.edu/~mausam/papers/emnlp12a.pdf)
-	* Mausam, Michael Schmitz, Robert Bart, Stephen Soderland, and Oren Etzioni (University of Washington)
-	* EMNLP'12
+	* Brief introduction: An extention of OpenIE by adding noun, adjectives mediated relation, as well as taking context into consideration.
+	* Authors: Mausam, Michael Schmitz, Robert Bart, Stephen Soderland, and Oren Etzioni (University of Washington)
+	* Venue: EMNLP'12
 * Neural Open Information Extraction [[paper]](https://arxiv.org/pdf/1805.04270.pdf)
-	* Lei Cui, Furu Wei, and Ming Zhou (MSRA)
-	* ACL'18
+	* Brief introduction: Propose a neural encoder-decoder OpenIE framework. The model is trained with highly confident binary extractions bootstrapped from a state-of-the-art Open IE system, therefore can generate highquality tuples without any hand-crafted patterns.
+	* Authors: Lei Cui, Furu Wei, and Ming Zhou (MSRA)
+	* Veune: ACL'18
 * COMET: Commonsense Transformers for Automatic Knowledge Graph Construction [[paper]](https://arxiv.org/pdf/1906.05317.pdf)
-	* Antoine Bosselut, Hannah Rashkin, Maarten Sap, Chaitanya Malaviya, Asli Celikyilmaz and Yejin Choi (University of Washington)
-	* ACL'19
+	* Brief introduction: Commonsense knowledge graph construction by using existing tuples as a seed set of knowledge for training. Using this seed set, a pre-trained language model (ELMO) learns to adapt its learned representations to knowledge generation, and produces novel tuples.
+	* Authors: Antoine Bosselut, Hannah Rashkin, Maarten Sap, Chaitanya Malaviya, Asli Celikyilmaz and Yejin Choi (University of Washington)
+	* Venue: ACL'19
 
 
 ## Lectures
