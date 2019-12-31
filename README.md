@@ -16,10 +16,12 @@ A collection of knowledge graph construction resources.
 
 ## Research Trends and Surveys
 
+* Advances in Automated Knowledge Base Construction (Suchanek et al) [[paper]](https://pdfs.semanticscholar.org/709e/64be9cc9eb7c8b29bf49237cd2df835efd24.pdf)
+
 
 ## Papers
 
-* Learning Knowledge Graphs for Question Answering through Conversational Dialog. [[paper]](https://homes.cs.washington.edu/~hannaneh/papers/knowbot.pdf)
+* Learning Knowledge Graphs for Question Answering through Conversational Dialog [[paper]](https://homes.cs.washington.edu/~hannaneh/papers/knowbot.pdf)
 
 
 
