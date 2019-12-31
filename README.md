@@ -114,10 +114,6 @@ Triples are extracted automatically from unstructured text via machine learning 
 	* ACL'19
 
 
-* Learning Knowledge Graphs for Question Answering through Conversational Dialog [[paper]](https://homes.cs.washington.edu/~hannaneh/papers/knowbot.pdf)
-
-
-
 ## Lectures
 
 ### Tutorials
@@ -127,7 +123,6 @@ Triples are extracted automatically from unstructured text via machine learning 
 * Constructing Domain-specific Knowledge Graphs. [[link]](https://usc-isi-i2.github.io/AAAI18Tutorial/)
 	* Craig Knoblock (USC), Pedro Szekely (USC), Mayank Kejriwal (USC)
 	* AAAI'18
-*
 
 
 ## Datasets
@@ -140,7 +135,6 @@ Triples are extracted automatically from unstructured text via machine learning 
 
 For state of the art results check out [nlpprogress.com on relation extraction](https://nlpprogress.com/english/relationship_extraction.html)
 
-[Back to Top](#contents)
 
 
 ## Videos and Lectures
@@ -153,14 +147,11 @@ For state of the art results check out [nlpprogress.com on relation extraction](
 	* (Slide) [Relation Extraction: Rule-based Approaches](https://cs.nyu.edu/courses/spring17/CSCI-GA.2590-001/DependencyPaths.pdf)
 * [Michigan University: Coursera](https://ai.umich.edu/portfolio/natural-language-processing/), Dragomir R. Radev
 	* (Video) [Lecture 48: Relation Extraction](https://www.youtube.com/watch?v=TbrlRei_0h8&ab_channel=ArtificialIntelligence-AllinOne)
-* [Virginia University: CS6501-NLP](http://web.cs.ucla.edu/~kwchang/teaching/NLP16/), Kai-Wei Chang
-	* (Slide) [Lecture 24: Relation Extraction](http://web.cs.ucla.edu/~kwchang/teaching/NLP16/slides/24-relation.pdf)
-
-
-[Back to Top](#contents)
 
 
 ## Systems
-* DeepDive (Christopher Ré el al, Stanford University) [[paper]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5361060/pdf/nihms826683.pdf) [System](http://deepdive.stanford.edu/kbc)
-* Open Information Extraction (Stanford University NLP) [System](https://nlp.stanford.edu/software/openie.html)
+* DeepDive (Christopher Ré el al, Stanford University) [[paper]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5361060/pdf/nihms826683.pdf) [[System]](http://deepdive.stanford.edu/kbc)
+* Open Information Extraction (Stanford University NLP) [[System]](https://nlp.stanford.edu/software/openie.html)
+
+
 [Back to Top](#contents)
