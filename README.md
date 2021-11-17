@@ -178,7 +178,7 @@ Triples are extracted from unstructured data via data-driven techniques
 * Open Information Extraction (Stanford University NLP) [[System]](https://nlp.stanford.edu/software/openie.html)
 
 ## References
-* [Sargur N. Srihari](https://cedar.buffalo.edu/~srihari/CSE674/Chap22/22.1%20Knowledge%20Graphs.pdf)
+* This repo is built based on [Sargur N. Srihari's slides](https://cedar.buffalo.edu/~srihari/CSE674/Chap22/22.1%20Knowledge%20Graphs.pdf). Many thanks!
 
 
 [Back to Top](#contents)
