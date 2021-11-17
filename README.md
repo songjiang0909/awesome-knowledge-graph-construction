@@ -29,7 +29,7 @@ A collection of knowledge graph construction resources. [Last update: Jan 2020]
 
 ### Curated Approaches 
 
-Triples are created manually by a closed group of experts.
+Triples are created manually by domain experts.
 
 * CYC: A Large-scale Investment in Knowledge Infrastructure [[paper]](https://www.cc.gatech.edu/~isbell/classes/reading/papers/lenat95cyc.pdf)
 	* Brief introduction: A universal schema of roughly 105 general concepts spanning human reality. 
@@ -46,7 +46,7 @@ Triples are created manually by a closed group of experts.
 
 ### Collaborative Approaches
 
-Triples are created manually by an open group of volunteers.
+Triples are created manually by volunteers.
 
 * Wikidata: a free collaborative knowledgebase [[paper]](http://ws.nju.edu.cn/courses/ke/reading/3_wikidata.pdf)
 	* Wikidata is a collaborative knowledge base, collecting structured data to provide support for Wikipedia, Wikimedia Commons.
@@ -59,7 +59,7 @@ Triples are created manually by an open group of volunteers.
 
 ### Automated Semi-structured Approaches
 
-Triples are extracted automatically from semi-structured text (e.g., infoboxes in Wikipedia) via hand-crafted rules, learned rules, or regular expressions 
+Triples are extracted automatically from semi-structured data via hand-crafted rules, learned rules, or regular expressions 
 
 * YAGO: A Core of Semantic Knowledge [[paper]](https://www2007.org/papers/paper391.pdf)
 	* Brief introduction: Triples are automatically extracted from Wikipedia and unified with WordNet, using a combination of rule-based and heuristic methods.
@@ -176,6 +176,9 @@ Triples are extracted automatically from unstructured text via machine learning 
 ## Systems and Tools
 * DeepDive (Christopher Ré el al, Stanford University) [[paper]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5361060/pdf/nihms826683.pdf) [[System]](http://deepdive.stanford.edu/kbc)
 * Open Information Extraction (Stanford University NLP) [[System]](https://nlp.stanford.edu/software/openie.html)
+
+## Reference
+* [Srihari](https://cedar.buffalo.edu/~srihari/CSE674/Chap22/22.1%20Knowledge%20Graphs.pdf)
 
 
 [Back to Top](#contents)
