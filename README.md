@@ -1,6 +1,6 @@
 # Awesome Knowledge Graph Construction [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A collection of knowledge graph construction resources.
+A collection of knowledge graph construction resources. [Last update: Jan 2020]
 
 ## Contents
 * [Research Trends and Surveys](#research-trends-and-surveys)
