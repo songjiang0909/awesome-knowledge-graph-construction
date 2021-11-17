@@ -177,8 +177,8 @@ Triples are extracted from unstructured data via data-driven techniques
 * DeepDive (Christopher Ré el al, Stanford University) [[paper]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5361060/pdf/nihms826683.pdf) [[System]](http://deepdive.stanford.edu/kbc)
 * Open Information Extraction (Stanford University NLP) [[System]](https://nlp.stanford.edu/software/openie.html)
 
-## Reference
-* [Srihari](https://cedar.buffalo.edu/~srihari/CSE674/Chap22/22.1%20Knowledge%20Graphs.pdf)
+## References
+* [Sargur N. Srihari](https://cedar.buffalo.edu/~srihari/CSE674/Chap22/22.1%20Knowledge%20Graphs.pdf)
 
 
 [Back to Top](#contents)
