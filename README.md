@@ -29,7 +29,7 @@ A collection of knowledge graph construction resources. [Last update: Jan 2020]
 
 ### Curated Approaches 
 
-Triples are created manually by domain experts.
+Triples are collected by domain experts.
 
 * CYC: A Large-scale Investment in Knowledge Infrastructure [[paper]](https://www.cc.gatech.edu/~isbell/classes/reading/papers/lenat95cyc.pdf)
 	* Brief introduction: A universal schema of roughly 105 general concepts spanning human reality. 
@@ -46,7 +46,7 @@ Triples are created manually by domain experts.
 
 ### Collaborative Approaches
 
-Triples are created manually by volunteers.
+Triples are collected by volunteers.
 
 * Wikidata: a free collaborative knowledgebase [[paper]](http://ws.nju.edu.cn/courses/ke/reading/3_wikidata.pdf)
 	* Wikidata is a collaborative knowledge base, collecting structured data to provide support for Wikipedia, Wikimedia Commons.
@@ -59,7 +59,7 @@ Triples are created manually by volunteers.
 
 ### Automated Semi-structured Approaches
 
-Triples are extracted automatically from semi-structured data via hand-crafted rules, learned rules, or regular expressions 
+Triples are collected from the semi-structured data source via some rule based methods.
 
 * YAGO: A Core of Semantic Knowledge [[paper]](https://www2007.org/papers/paper391.pdf)
 	* Brief introduction: Triples are automatically extracted from Wikipedia and unified with WordNet, using a combination of rule-based and heuristic methods.
@@ -80,7 +80,7 @@ Triples are extracted automatically from semi-structured data via hand-crafted r
 
 ### Automated Unstructured Approaches
 
-Triples are extracted automatically from unstructured text via machine learning and natural language processing techniques
+Triples are extracted from unstructured data via data-driven techniques
 
 #### Schema-based Approaches
 
